@@ -1,0 +1,52 @@
+.container { /*Controlando as posições do texto, input e button*/
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.container header { /*Controlando o tamanho das margens*/
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 7px;
+}
+.container header div {
+    display: flex;
+    align-items: center;
+}
+.container input { /*Controlando o input*/
+    width: 50%; /*Largura da caixa do input*/
+    padding: 24px; /*Altura da caixa do input*/
+
+    background: #e6e6e6; /*Cor da caixa*/
+    border-radius: 5px;
+    border: none; /*Retirando a bordar da caixa*/
+
+    font-size: 16px; /*Tamanho da fonte*/
+}
+.container button {
+    width: 50%; /*Largura do button*/
+    padding: 24px; /*Altura do button*/
+    font-weight: 700; /*Escrito em negrito*/
+
+    background: #7468c1; /*Cor do button*/
+    color: #FFFFFF; /*Cor da letra*/
+
+    border-radius: 5px; /*Arrendondando as bordas do button*/
+    margin: 12px 0 84px;
+    border: none;
+
+    cursor: pointer; /*Icone do cursor de clicar*/
+    transition: filter 0.2s; /*Transição para o efeito*/
+
+    font-size: 16px;
+}
+.container button:hover {
+    filter: brightness(0.9); /*Efeito de escurecer o button*/
+}
